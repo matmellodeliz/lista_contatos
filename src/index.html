@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos com Web Components</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <input type="text" id="busca-nome" placeholder="Buscar por nome">
+    <select id="filtro">
+        <option value="">Filtrar por UF</option>
+        <option value="SC">SC</option>
+        <option value="PR">PR</option>
+        <option value="SP">SP</option>
+        <option value="AC">AC</option>
+        <option value="RS">RS</option>
+    </select>
+    <div id="lista-contatos"></div>
+
+    <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('js/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch(error => {
+                    console.log('Service Worker registration failed:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>
