@@ -1,55 +1,55 @@
-# PWA Contact List
+# Lista de Contatos PWA
 
-This project is a Progressive Web App (PWA) that allows users to manage a list of contacts using Web Components. The application provides features for searching and filtering contacts, and it works offline thanks to the service worker.
+Este projeto é uma Progressive Web App (PWA) que permite aos usuários gerenciar uma lista de contatos usando Web Components. A aplicação oferece recursos para buscar e filtrar contatos, e funciona offline graças ao service worker.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
-pwa-contact-list
+lista_contatos
 ├── src
 │   ├── css
-│   │   └── styles.css        # Styles for the application
+│   │   └── styles.css        # Estilos para a aplicação
 │   ├── js
-│   │   ├── app.js            # Main JavaScript file integrating contact functionality
-│   │   └── service-worker.js  # Service worker for offline capabilities
-│   ├── index.html            # Main HTML file for the application
-│   └── manifest.json         # Web App Manifest for PWA settings
-├── package.json              # npm configuration file
-└── README.md                 # Project documentation
+│   │   ├── app.js            # Arquivo JavaScript principal que integra a funcionalidade de contatos
+│   │   └── service-worker.js  # Service worker para capacidades offline
+│   ├── index.html            # Arquivo HTML principal da aplicação
+│   └── manifest.json         # Manifesto da Web App para configurações de PWA
+├── package.json              # Arquivo de configuração do npm
+└── README.md                 # Documentação do projeto
 ```
 
-## Installation
+## Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
    ```
    git clone <repository-url>
    ```
 
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
    ```
-   cd pwa-contact-list
+   cd lista_contatos
    ```
 
-3. Install the necessary dependencies:
+3. Instale as dependências necessárias:
    ```
    npm install
    ```
 
-## Usage
+## Uso
 
-1. Open `src/index.html` in a web browser to view the application.
-2. Use the search input to filter contacts by name.
-3. Use the dropdown to filter contacts by state (UF).
-4. Click on "Mostrar Detalhes" to view additional information about each contact.
+1. Abra `src/index.html` em um navegador web para visualizar a aplicação.
+2. Use o campo de busca para filtrar contatos pelo nome.
+3. Use o dropdown para filtrar contatos pelo estado (UF).
+4. Clique em "Mostrar Detalhes" para ver informações adicionais sobre cada contato.
 
-## Offline Capabilities
+## Capacidades Offline
 
-The application is equipped with a service worker that caches essential assets, allowing it to function offline. Ensure that your browser supports service workers and that they are enabled.
+A aplicação está equipada com um service worker que faz cache dos recursos essenciais, permitindo que funcione offline. Certifique-se de que seu navegador suporte service workers e que eles estejam habilitados.
 
-## Contributing
+## Contribuição
 
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para qualquer melhoria ou correção de bugs.
 
-## License
+## Licença
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
