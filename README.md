@@ -11,29 +11,12 @@ lista_contatos
 │   │   └── styles.css        # Estilos para a aplicação
 │   ├── js
 │   │   ├── app.js            # Arquivo JavaScript principal que integra a funcionalidade de contatos
-│   │   └── service-worker.js  # Service worker para capacidades offline
+│   │   └── service-worker.js  # Service worker para Trabalhar offline
 │   ├── index.html            # Arquivo HTML principal da aplicação
 │   └── manifest.json         # Manifesto da Web App para configurações de PWA
 ├── package.json              # Arquivo de configuração do npm
 └── README.md                 # Documentação do projeto
 ```
-
-## Instalação
-
-1. Clone o repositório:
-   ```
-   git clone <repository-url>
-   ```
-
-2. Navegue até o diretório do projeto:
-   ```
-   cd lista_contatos
-   ```
-
-3. Instale as dependências necessárias:
-   ```
-   npm install
-   ```
 
 ## Uso
 
@@ -42,6 +25,6 @@ lista_contatos
 3. Use o dropdown para filtrar contatos pelo estado (UF).
 4. Clique em "Mostrar Detalhes" para ver informações adicionais sobre cada contato.
 
-## Capacidades Offline
+## Trabalhar Offline
 
 A aplicação está equipada com um service worker que faz cache dos recursos essenciais, permitindo que funcione offline. Certifique-se de que seu navegador suporte service workers e que eles estejam habilitados.
