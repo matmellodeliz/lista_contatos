@@ -45,11 +45,3 @@ lista_contatos
 ## Capacidades Offline
 
 A aplicação está equipada com um service worker que faz cache dos recursos essenciais, permitindo que funcione offline. Certifique-se de que seu navegador suporte service workers e que eles estejam habilitados.
-
-## Contribuição
-
-Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para qualquer melhoria ou correção de bugs.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
