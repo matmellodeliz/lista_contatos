@@ -1,20 +1,19 @@
 {
-  "name": "pwa-contact-list",
+  "name": "lista-contatos-pwa",
   "version": "1.0.0",
-  "description": "A Progressive Web App for managing a contact list with offline capabilities.",
+  "description": "Lista de contatos PWA",
   "main": "src/js/app.js",
   "scripts": {
     "start": "live-server src",
-    "build": "echo 'Build step can be added here'",
-    "test": "echo 'No tests specified'"
+    "build": "",
+    "test": ""
   },
   "keywords": [
     "PWA",
-    "contacts",
+    "contatos",
     "web components"
   ],
-  "author": "Your Name",
-  "license": "MIT",
+  "author": "Mateus Mello",
   "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.1"
